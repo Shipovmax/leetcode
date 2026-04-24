@@ -21,8 +21,9 @@ Each folder is named `{number}_{slug}` with zero-padded number for correct sorti
 
 | Language | Solved |
 |----------|--------|
-| Python | 0 |
-| Go | 0 |
+| Python   | 0 |
+| Go       | 0 |
+| **Total**| **0** |
 
 ## Topics
 
