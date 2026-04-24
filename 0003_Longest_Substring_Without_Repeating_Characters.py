@@ -1,11 +1,14 @@
-'''
+"""
 Дана строка s. Найдите длину самой длинной строки без повторяющихся символов.
-'''
+"""
+
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        last = [-1] * 128  # last[i] = последний индекс символа с ASCII-кодом i, -1 = не встречался
-        left = 0           # левая граница окна
+        last = (
+            [-1] * 128
+        )  # last[i] = последний индекс символа с ASCII-кодом i, -1 = не встречался
+        left = 0  # левая граница окна
         max_len = 0
 
         for right, char in enumerate(s):
